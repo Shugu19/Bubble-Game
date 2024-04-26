@@ -1,5 +1,7 @@
 var timer = 60;
-function makeNewbubble() {
+var hit = 0;
+
+function makeNewBubble() {
     var newbubble = "";
 
     for (var i = 1; i < 85; i++) {
@@ -19,9 +21,13 @@ function startTimer() {
 
     }, 1000);
 }
+function makeNewHit(){
+    var hit = Math.floor(Math.random() * 100);
+    document.querySelector("#NewHit").innerHTML = hit;
+}
 
 
 
-
-makeNewbubble();
+makeNewBubble();
 startTimer();
+makeNewHit();
