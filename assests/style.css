@@ -63,6 +63,7 @@
       display: flex;
       flex-wrap: wrap;
       width: 100%;
+      height: auto;
   }
   .bubble{
       background-color: rgb(15, 40, 69);
