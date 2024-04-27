@@ -1,5 +1,6 @@
 var timer = 60;
 var hit = 0;
+var score = 0;
 
 function makeNewBubble() {
     var newbubble = "";
@@ -25,9 +26,11 @@ function makeNewHit(){
     var hit = Math.floor(Math.random() * 100);
     document.querySelector("#NewHit").innerHTML = hit;
 }
-
-
+function increaseScore(){
+    score += 10;
+    document.querySelector("#NewScore").innerHTML = score;
+}
 
 makeNewBubble();
-startTimer();
+startTimer();   
 makeNewHit();
