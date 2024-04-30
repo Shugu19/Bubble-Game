@@ -1,85 +1,119 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: gilroy;
-  }
-  
-  html,body {
-    width: 100%;
-    height: 100%;
-  }
-  
-  #main {
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    width: 100%;
-    height: 100%;
-    background-color: rgb(37, 94, 126);
-  }
-  h1 {
-    justify-content: center;
-    display: flex;
-    width: 100%;
-    color: white;
-    font-size: 50px;
-    font-weight: 800;
-    background-color: rgb(37, 94, 126);
-  
-    
-  }
-  #panel {
-    overflow: hidden;
-    width: 80%;
-    height: 90%;
-    border-radius: 10px;
-    background-color: white;
-  }
-  #toppanel {
-    justify-content: space-between;
-    padding: 0px 25%;
-    align-items: center;
-    display: flex;
-    width: 100%;
-    height: 11vh;
-    color: white;
-    background-color: rgb(15, 40, 69);
-  }
-  .elements {
-    align-items: center;
-    display: flex;
-    gap: 20px;
-  }
-  .box {
-    color: rgb(18, 66, 137);
-    font-weight: 700;
-    font-size: 20px;
-    padding: 12px 15px;
-    border-radius: 5px;
-    background-color: white;
-  }
-  #bottompanel{
-      display: flex;
-      flex-wrap: wrap;
-      width: 100%;
-      height: auto;
-  }
-  .bubble{
-      background-color: rgb(15, 40, 69);
-      width: 10vh;
-      height: 10vh;
-      border-radius: 50%;
-      margin: 9px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      font-size: 30px;
-      font-weight: 700;
-      color: white;
-  }
-  .bubble:hover{
-      background-color: rgb(37, 94, 126);
-      cursor: pointer;
-  }
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: gilroy;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#main {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 100%;
+  height: 95%;
+  background-color: rgb(37, 94, 126);
+}
+header{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 100%;
+  height: 5vh;
+  color: white;
+  font-size: 20px;
+  font-weight: 800;
+  background-color: rgb(37, 94, 126);
+}
+#panel {
+  overflow: hidden;
+  width: 80%;
+  height: 90%;
+  border-radius: 10px;
+  background-color: white;
+}
+#toppanel {
+  justify-content: space-between;
+  padding: 0px 25%;
+  align-items: center;
+  display: flex;
+  width: 100%;
+  height: 11vh;
+  color: white;
+  background-color: rgb(15, 40, 69);
+}
+.elements {
+  align-items: center;
+  display: flex;
+  gap: 20px;
+}
+.box {
+  color: rgb(18, 66, 137);
+  font-weight: 700;
+  font-size: 20px;
+  padding: 12px 15px;
+  border-radius: 5px;
+  background-color: white;
+}
+#bottompanel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 88%;
+}
+#start{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 15%;
+  height: 10vh;
+  color: white;
+  font-size: 20px;
+  font-weight: 800;
+  background-color: rgb(37, 94, 126);
+  border-radius: 20px;
+  margin-bottom: 15vh;
+}
+#start:hover{
+  cursor: pointer;
+  background-color: rgb(15, 40, 69);
+}
+#endGame{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 15%;
+  height: 9vh;
+  color: white;
+  font-size: 20px;
+  font-weight: 800;
+  background-color: rgb(37, 94, 126);
+  border-radius: 20px;
+  margin-bottom: 15vh;
+}
+
+
+.bubble {
+  background-color: rgb(15, 40, 69);
+  width: 10vh;
+  height: 10vh;
+  border-radius: 50%;
+  margin: 9px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+}
+.bubble:hover {
+  background-color: rgb(37, 94, 126);
+  cursor: pointer;
+}
