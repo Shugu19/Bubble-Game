@@ -19,7 +19,7 @@ body {
   height: 95%;
   background-color: rgb(37, 94, 126);
 }
-header{
+header {
   justify-content: center;
   align-items: center;
   display: flex;
@@ -47,7 +47,7 @@ header{
   color: white;
   background-color: rgb(15, 40, 69);
 }
-.elements {
+.element {
   align-items: center;
   display: flex;
   gap: 20px;
@@ -68,11 +68,11 @@ header{
   width: 100%;
   height: 88%;
 }
-#start{
+#start {
   justify-content: center;
   align-items: center;
   display: flex;
-  width: 15%;
+  width: 15vw;
   height: 10vh;
   color: white;
   font-size: 20px;
@@ -81,24 +81,24 @@ header{
   border-radius: 20px;
   margin-bottom: 15vh;
 }
-#start:hover{
+#start:hover {
   cursor: pointer;
   background-color: rgb(15, 40, 69);
 }
-#endGame{
+
+#endGame {
   justify-content: center;
   align-items: center;
   display: flex;
-  width: 15%;
+  width: 25vh;
   height: 9vh;
   color: white;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 800;
   background-color: rgb(37, 94, 126);
   border-radius: 20px;
-  margin-bottom: 15vh;
+  margin: 21vh 4vh 53vh 22vh;
 }
-
 
 .bubble {
   background-color: rgb(15, 40, 69);
@@ -117,3 +117,97 @@ header{
   background-color: rgb(37, 94, 126);
   cursor: pointer;
 }
+#finalScore {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 25vh;
+  height: 9vh;
+  color: white;
+  font-size: 30px;
+  font-weight: 800;
+  background-color: rgb(37, 94, 126);
+  border-radius: 20px;
+  margin: 22vh 21vh 54vh 2vh;
+}
+#startAgain {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 15vw;
+  height: 10vh;
+  color: white;
+  font-size: 20px;
+  font-weight: 800;
+  background-color: rgb(37, 94, 126);
+  border-radius: 20px;
+  margin-bottom: 15vh;
+}
+
+#startAgain:hover {
+  cursor: pointer;
+  background-color: rgb(15, 40, 69);
+}
+
+/* Media Quaries */
+@media (max-width: 1600px) {
+  #endGame {
+    width: 17vw;
+    height: 10vh;
+    font-size: 30px;
+    margin: 21vh 4vh 53vh 22vh;
+  }
+  #finalScore {
+    width: 17vw;
+    height: 10vh;
+    font-size: 30px;
+    margin: 22vh 21vh 54vh 2vh;
+  }
+}
+
+@media (max-width: 1280px) {
+  #endGame {
+    width: 20vw;
+    height: 10vh;
+    font-size: 30px;
+    margin: 0vh 6vh 32vh 14vh;
+  }
+  #finalScore {
+    width: 17vw;
+    height: 10vh;
+    font-size: 30px;
+    margin: 22vh 14vh 54vh 2vh;
+  }
+}
+
+@media (max-width: 1024px) {
+  #endGame {
+    width: 26vw;
+    height: 10vh;
+    font-size: 30px;
+    margin: 16vh 8vh 47vh 0vh;
+  }
+  #finalScore {
+    width: 26vw;
+    height: 10vh;
+    font-size: 30px;
+    margin: 23vh 2vh 54vh 0vh;
+  }
+}
+
+@media (max-width: 680px) {
+  #endGame {
+    width: 34vw;
+    height: 10vh;
+    font-size: 30px;
+    margin: 17vh -12vh 61vh 5vh;
+  }
+  #finalScore {
+    width: 34vw;
+    height: 10vh;
+    font-size: 30px;
+    margin: 27vh 4vh 41vh -13vh;
+  }
+}
+
+

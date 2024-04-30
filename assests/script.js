@@ -1,4 +1,4 @@
-var timer = 60;
+var timer = 6;
 var score = 0;
 var hitrn = 0;
 
@@ -20,7 +20,7 @@ function startTimer() {
         } else {
             clearInterval(timerInterval);
             document.querySelector("#bottompanel").innerHTML = `<h1 id="endGame">Game Over</h1>`;
-            document.querySelector("#bottompanel").innerHTML += `<h2 id="NewScore">Your Score: ${score}</h2>`;
+            document.querySelector("#bottompanel").innerHTML += `<h2 id="finalScore">Your Score: ${score}</h2>`;
         }
     }, 1000);
 }
@@ -34,6 +34,7 @@ function increaseScore() {
     score += 10;
     document.querySelector("#NewScore").innerHTML = score;
 }
+
 
 document.querySelector("#bottompanel").addEventListener("click", function (dets) {
     var clickedNumber = Number(dets.target.textContent);
@@ -50,3 +51,9 @@ document.querySelector("#start").addEventListener("click", function () {
     makeNewHit();
 });
 
+document.qu("#startAgain").addEventListener("click", function () {
+
+    makeNewBubble();
+    startTimer();
+    makeNewHit();
+});
