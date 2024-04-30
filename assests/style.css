@@ -195,18 +195,42 @@ header {
   }
 }
 
-@media (max-width: 680px) {
+@media (max-width: 435px) {
+  
+  #toppanel {
+    width: 100%;
+    border-radius: 1px;
+    color: white;
+    background-color: rgb(15, 40, 69);
+  }
+  #toppanel, .element{
+    padding: 1px 0px 7px 1px;
+  }
+
+  .box {
+    font-size: 24px;
+        padding: 0px 8px 0px;
+        margin: -1px 24px 0px -13px;
+  }
+  #bottompanel {
+    width: 100%;
+    height: 90%;
+    border-radius: 1px;
+  }
+  .bubble {
+    
+  }
   #endGame {
-    width: 34vw;
-    height: 10vh;
-    font-size: 30px;
-    margin: 17vh -12vh 61vh 5vh;
+    width: 33vw;
+        height: 10vh;
+        font-size: 23px;
+        margin: 17vh -7vh 61vh 5vh;
   }
   #finalScore {
-    width: 34vw;
+    width: 33vw;
     height: 10vh;
-    font-size: 30px;
-    margin: 27vh 4vh 41vh -13vh;
+    font-size: 23px;
+    margin: 26vh 4vh 41vh -12vh;;
   }
 }
 
