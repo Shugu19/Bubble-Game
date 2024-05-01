@@ -261,9 +261,9 @@ header {
     margin: 26vh 4vh 40vh -14vh;
   }
   .bubble {
-    height: 38px;
-    width: 48px;
-    font-size: 18px;
+    height: 28px;
+    width: 46px;
+    font-size: 14px;
   }
   #panel{
     width: 90%;
