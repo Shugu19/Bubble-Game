@@ -154,7 +154,7 @@ header {
   
 }
 
-@media screen and (max-width: 428px) {
+@media screen and (min-width: 220px) and (max-width: 450px) {
   .bubble {
     width: 58px;
     height: 67px;
