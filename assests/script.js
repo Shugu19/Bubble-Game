@@ -6,7 +6,7 @@ var hitrn = 0;
 function makeNewBubble() {
     var newbubble = "";
 
-    for (var i = 1; i < 91; i++) {
+    for (var i = 1; i < 51; i++) {
         newbubble += `<div class="bubble">${Math.floor(Math.random() * 20)}</div>`;
     }
     document.querySelector("#bottompanel").innerHTML = newbubble;
@@ -46,13 +46,6 @@ document.querySelector("#bottompanel").addEventListener("click", function (dets)
 });
 
 document.querySelector("#start").addEventListener("click", function () {
-    makeNewBubble();
-    startTimer();
-    makeNewHit();
-});
-
-document.qu("#startAgain").addEventListener("click", function () {
-
     makeNewBubble();
     startTimer();
     makeNewHit();
