@@ -288,7 +288,7 @@ header {
 @media screen and (min-width: 220px) and (max-width: 450px) {
   .bubble {
     width: 58px;
-    height: 54px;
+    height: 49px;
   }
   #panel {
     width: 90%;

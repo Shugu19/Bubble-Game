@@ -22,7 +22,9 @@ function startTimer() {
             document.querySelector("#bottompanel").innerHTML = `<h1 id="endGame">Game Over</h1>`;
             document.querySelector("#bottompanel").innerHTML += `<h2 id="finalScore">Your Score: ${score}</h2>`;
         }
+        
     }, 1000);
+    
 }
 
 function makeNewHit() {
