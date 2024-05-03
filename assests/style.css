@@ -66,7 +66,7 @@ header {
   align-items: center;
   flex-wrap: wrap;
   width: 100%;
-  height: 0px;
+  height: calc(100% - 100px);
 }
 #start {
   justify-content: center;
@@ -103,7 +103,6 @@ header {
 .bubble {
   background-color: rgb(15, 40, 69);
   width: 111px;
-  height: 90px;
   border-radius: 50%;
   margin: 9px;
   display: flex;
@@ -152,8 +151,8 @@ header {
 /* Media Quaries */
 @media only screen and (min-width: 1201px) { 
   .bubble {
-    width: 134px;
-    height: 103px;
+    width: 162px;
+    height: 86px;
   }
   #panel {
     width: 90%;
@@ -289,7 +288,7 @@ header {
 @media screen and (min-width: 220px) and (max-width: 450px) {
   .bubble {
     width: 58px;
-    height: 67px;
+    height: 54px;
   }
   #panel {
     width: 90%;
@@ -317,9 +316,6 @@ header {
     width: 54%;
     height: 9vh;
     margin: 6vh 0px 0px 0px;
-  }
-  #bottompanel {
-    height: 0px;
   }
   #bottompanel {
     height: 0px;
