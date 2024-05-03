@@ -151,8 +151,8 @@ header {
 /* Media Quaries */
 @media only screen and (min-width: 1201px) { 
   .bubble {
-    width: 162px;
-    height: 86px;
+    width: 111px;
+    height: 108px;
   }
   #panel {
     width: 90%;
@@ -176,8 +176,8 @@ header {
 }
 @media only screen and (min-width: 993px) and (max-width: 1200px) {
   .bubble {
-    width: 134px;
-    height: 103px;
+    width: 97px;
+    height: 65px;
   }
   #panel {
     width: 90%;
@@ -210,8 +210,8 @@ header {
 }
 @media only screen and (min-width: 769px) and (max-width: 992px) {
   .bubble {
-    width: 93px;
-    height: 103px;
+    width: 65px;
+    height: 55px;
   }
   #panel {
     width: 90%;
@@ -247,8 +247,8 @@ header {
 }
 @media only screen and (min-width: 451px) and (max-width: 768px) {
   .bubble {
-    width: 118px;
-    height: 67px;
+    width: 68px;
+    height: 45px;
   }
   #panel {
     width: 90%;
