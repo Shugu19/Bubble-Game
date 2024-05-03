@@ -7,7 +7,7 @@ function makeNewBubble() {
     var newbubble = "";
 
     for (var i = 1; i < 51; i++) {
-        newbubble += `<div class="bubble">${Math.floor(Math.random() * 20)}</div>`;
+        newbubble += `<div class="bubble">${Math.floor(Math.random() * 15)}</div>`;
     }
     document.querySelector("#bottompanel").innerHTML = newbubble;
 }
