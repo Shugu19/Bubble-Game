@@ -72,14 +72,13 @@ header {
   justify-content: center;
   align-items: center;
   display: flex;
-  width: 25%;
-  height: 10vh;
+  width: 20%;
+  height: 12vh;
   color: white;
   font-size: 20px;
   font-weight: 800;
   background-color: rgb(37, 94, 126);
   border-radius: 20px;
-  margin: 27vh 0px 0px 0px;
 }
 #start:hover {
   cursor: pointer;
@@ -102,7 +101,8 @@ header {
 
 .bubble {
   background-color: rgb(15, 40, 69);
-  width: 111px;
+  width: 92px;
+  height: 62px;
   border-radius: 50%;
   margin: 9px;
   display: flex;
@@ -133,8 +133,8 @@ header {
   justify-content: center;
   align-items: center;
   display: flex;
-  width: 15vw;
-  height: 10vh;
+  width: 2vw;
+  height: 5vh;
   color: white;
   font-size: 20px;
   font-weight: 800;
@@ -149,35 +149,11 @@ header {
 }
 
 /* Media Quaries */
-@media only screen and (min-width: 1201px) { 
+
+/* @media only screen and (min-width: 993px) and (max-width: 1200px) {
   .bubble {
-    width: 111px;
-    height: 108px;
-  }
-  #panel {
-    width: 90%;
-    height: 90%;
-  }
-  #toppanel {
-    height: 8vh;
-    width: 100%;
-  }
-  .element {
-    margin: -2px -72px -1px -85px;
-    gap: 4%;
-  }
-  #start {
-    width: 15%;
-    height: 9vh;
-    margin: 27vh 0px 0px 0px;
-  }
-  
-  
-}
-@media only screen and (min-width: 993px) and (max-width: 1200px) {
-  .bubble {
-    width: 97px;
-    height: 65px;
+    width: 79px;
+    height: 64px;
   }
   #panel {
     width: 90%;
@@ -207,11 +183,11 @@ header {
     margin: 6vh 0px 0px 0px;
   }
   
-}
+} */
 @media only screen and (min-width: 769px) and (max-width: 992px) {
   .bubble {
-    width: 65px;
-    height: 55px;
+    width: 62px;
+    height: 64px;
   }
   #panel {
     width: 90%;
@@ -247,8 +223,8 @@ header {
 }
 @media only screen and (min-width: 451px) and (max-width: 768px) {
   .bubble {
-    width: 68px;
-    height: 45px;
+    width: 44px;
+    height: 65px;
   }
   #panel {
     width: 90%;
@@ -287,8 +263,8 @@ header {
 
 @media screen and (min-width: 220px) and (max-width: 450px) {
   .bubble {
-    width: 58px;
-    height: 38px;
+    width: 39px;
+    height: 35px;
   }
   #panel {
     width: 90%;
