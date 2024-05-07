@@ -25,7 +25,7 @@ function startTimer() {
 }
 
 function makeNewHit() {
-    hitrn = Math.floor(Math.random() * 20);
+    hitrn = Math.floor(Math.random() * 15);
     document.querySelector("#NewHit").textContent = hitrn;
 }
 
