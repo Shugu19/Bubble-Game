@@ -1,4 +1,4 @@
-var timer = 60;
+var timer = 6;
 var score = 0;
 var hitrn = 0;
 var timerInterval;
@@ -6,7 +6,7 @@ var timerInterval;
 function makeNewBubble() {
     var newbubble = "";
 
-    for (var i = 1; i < 78; i++) {
+    for (var i = 0; i < 78; i++) {
         newbubble += `<div class="bubble">${Math.floor(Math.random() * 20)}</div>`;
     }
     document.querySelector("#bottompanel").innerHTML = newbubble;
