@@ -1,7 +1,7 @@
 var timer = 60;
 var score = 0;
 var hitrn = 0;
-
+var timerInterval;
 
 function makeNewBubble() {
     var newbubble = "";
@@ -13,18 +13,15 @@ function makeNewBubble() {
 }
 
 function startTimer() {
-    var timerInterval = setInterval(function () {
+    timerInterval = setInterval(function () {
         if (timer > 0) {
             timer--;
             document.querySelector("#setTimer").innerHTML = timer;
         } else {
             clearInterval(timerInterval);
-            document.querySelector("#bottompanel").innerHTML = `<h1 id="endGame">Game Over</h1>`;
-            document.querySelector("#bottompanel").innerHTML += `<h2 id="finalScore">Your Score: ${score}</h2>`;
+            endGame();
         }
-        
     }, 1000);
-    
 }
 
 function makeNewHit() {
@@ -37,6 +34,30 @@ function increaseScore() {
     document.querySelector("#NewScore").innerHTML = score;
 }
 
+function endGame() {
+    document.querySelector("#bottompanel").innerHTML = `<h1 id="endGame">Game Over</h1>`;
+    document.querySelector("#bottompanel").innerHTML += `<h2 id="finalScore">Your Score: ${score}</h2>`;
+    if (!document.querySelector("#start")) { // Check if the button already exists
+        document.querySelector("#bottompanel").innerHTML += `<button id="startAgain">Start Again</button>`;
+        document.querySelector("#startAgain").addEventListener("click", function () {
+            resetGame();
+        });
+    }
+}
+
+
+
+
+function resetGame() {
+    clearInterval(timerInterval);
+    timer = 60;
+    score = 0;
+    document.querySelector("#setTimer").innerHTML = timer;
+    document.querySelector("#NewScore").innerHTML = score;
+    makeNewBubble();
+    makeNewHit();
+    startTimer(); // Restart timer
+}
 
 document.querySelector("#bottompanel").addEventListener("click", function (dets) {
     var clickedNumber = Number(dets.target.textContent);
@@ -49,6 +70,8 @@ document.querySelector("#bottompanel").addEventListener("click", function (dets)
 
 document.querySelector("#start").addEventListener("click", function () {
     makeNewBubble();
-    startTimer();
     makeNewHit();
+    startTimer();
 });
+
+
