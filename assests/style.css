@@ -101,8 +101,8 @@ header {
 
 .bubble {
   background-color: rgb(15, 40, 69);
-  width: 56px;
-  height: 57px;
+  width: 80px;
+  height: 60px;
   border-radius: 50%;
   margin: 9px;
   display: flex;
@@ -150,10 +150,10 @@ header {
 
 /* Media Quaries */
 
-/* @media only screen and (min-width: 993px) and (max-width: 1200px) {
+@media only screen and (max-width: 1200px) {
   .bubble {
-    width: 79px;
-    height: 64px;
+    width: 78px;
+    height: 62px;
   }
   #panel {
     width: 90%;
@@ -183,8 +183,8 @@ header {
     margin: 6vh 0px 0px 0px;
   }
   
-} */
-@media only screen and (min-width: 769px) and (max-width: 992px) {
+}
+@media only screen and (max-width: 992px) {
   .bubble {
     width: 62px;
     height: 64px;
@@ -221,7 +221,7 @@ header {
     height: 0px;
   }
 }
-@media only screen and (min-width: 451px) and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   .bubble {
     width: 44px;
     height: 44px;
@@ -261,7 +261,7 @@ header {
   }
 }
 
-@media screen and (min-width: 220px) and (max-width: 450px) {
+@media screen and (max-width: 450px) {
   .bubble {
     width: 37px;
     height: 29px;
