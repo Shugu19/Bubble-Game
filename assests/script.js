@@ -7,7 +7,7 @@ function makeNewBubble() {
     var newbubble = "";
 
     for (var i = 1; i < 78; i++) {
-        newbubble += `<div class="bubble">${Math.floor(Math.random() * 15)}</div>`;
+        newbubble += `<div class="bubble">${Math.floor(Math.random() * 20)}</div>`;
     }
     document.querySelector("#bottompanel").innerHTML = newbubble;
 }
@@ -25,7 +25,7 @@ function startTimer() {
 }
 
 function makeNewHit() {
-    hitrn = Math.floor(Math.random() * 15);
+    hitrn = Math.floor(Math.random() * 20);
     document.querySelector("#NewHit").textContent = hitrn;
 }
 
