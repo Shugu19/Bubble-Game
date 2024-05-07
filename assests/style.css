@@ -308,7 +308,7 @@ span{
 @media screen and (max-width: 450px) {
   .bubble {
     width: 37px;
-    height: 29px;
+    height: 32px;
   }
   #panel {
     width: 90%;
