@@ -101,8 +101,8 @@ header {
 
 .bubble {
   background-color: rgb(15, 40, 69);
-  width: 92px;
-  height: 62px;
+  width: 56px;
+  height: 57px;
   border-radius: 50%;
   margin: 9px;
   display: flex;
@@ -224,7 +224,7 @@ header {
 @media only screen and (min-width: 451px) and (max-width: 768px) {
   .bubble {
     width: 44px;
-    height: 65px;
+    height: 44px;
   }
   #panel {
     width: 90%;
