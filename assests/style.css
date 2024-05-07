@@ -330,7 +330,7 @@ span{
 
 @media screen and (max-width: 450px) {
   .bubble {
-    width: 37px;
+    width: 48px;
     height: 32px;
   }
   #panel {
