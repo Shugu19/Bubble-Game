@@ -69,11 +69,14 @@ header {
   height: calc(100% - 140px);
 }
 #infopanel{
-  margin: 1vh 10vh 1vh 1vh;
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  height: 10vh;
   color: white;
   font-size: 20px;
   font-weight: 800;
-  color: rgb(15, 40, 69);
+ color: rgb(15, 40, 69);
 }
 span{
   font-size: 27px;
@@ -114,8 +117,8 @@ span{
 
 .bubble {
   background-color: rgb(15, 40, 69);
-  width: 69px;
-  height: 70pxx;
+  width: 82px;
+  height: 90px;
   border-radius: 50%;
   margin: 9px;
   display: flex;
@@ -151,22 +154,22 @@ span{
   color: white;
   font-size: 30px;
   font-weight: 800;
-  background-color: rgb(37, 94, 126);
+  background-color: rgb(15, 40, 69);
   border-radius: 20px;
   margin: 27px 0px 0px 0px;
 }
 
 #startAgain:hover {
   cursor: pointer;
-  background-color: rgb(15, 40, 69);
+  background-color: rgb(37, 94, 126);
 }
 
 /* Media Quaries */
 
 @media only screen and (max-width: 1600px){
   .bubble {
-    width: 94px;
-    height: 62px;
+    width: 123px;
+    height: 87px;
   }
   #panel {
     width: 90%;
@@ -204,8 +207,8 @@ span{
 }
 @media only screen and (max-width: 1200px) {
   .bubble {
-    width: 78px;
-    height: 62px;
+    width: 100px;
+    height: 76px;
   }
   #panel {
     width: 90%;
@@ -243,8 +246,8 @@ span{
 }
 @media only screen and (max-width: 992px) {
   .bubble {
-    width: 62px;
-    height: 64px;
+    width: 92px;
+    height: 66px;
   }
   #panel {
     width: 90%;
@@ -285,7 +288,7 @@ span{
 }
 @media only screen and (max-width: 768px) {
   .bubble {
-    width: 78px;
+    width: 93px;
     height: 52px;
   }
   #panel {
@@ -295,6 +298,10 @@ span{
   #toppanel {
     height: 8vh;
     width: 100%;
+  }
+  #infopanel{
+    width: 100%;
+  height: 10vh;
   }
   .element {
     margin: -2px -72px -1px -85px;
