@@ -390,10 +390,17 @@ span{
 @media screen and (max-width: 375px) {
   .bubble {
     width: 37px;
-    height: 29px;
+    height: 27px;
   }
   #panel {
     width: 90%;
     height: 90%;
+  }
+  li{
+    margin: 3vh 1vh 1vh 3vh;
+    font-size: 14px;
+  }
+  span{
+    font-size: 25px;
   }
 }
