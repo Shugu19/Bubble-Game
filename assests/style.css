@@ -403,12 +403,12 @@ span{
 }
 @media screen and (max-width: 450px) {
   .bubble {
-    width: 46px;
-    height: 27px;
+    width: 11vw;
+    height: 4vh;
   }
   #panel {
-    width: 90%;
-    height: 90%;
+    width: 96vw;
+    height: 93vh;
   }
   #toppanel {
     height: 8vh;
@@ -456,12 +456,12 @@ span{
 }
 @media screen and (max-width: 375px) {
   .bubble {
-    width: 37px;
-    height: 27px;
+    width: 9vw;
+    height: 4vh;
   }
   #panel {
-    width: 90%;
-    height: 90%;
+    width: 94vw;
+    height: 84vh;
   }
   li{
     margin: 3vh 1vh 1vh 3vh;
