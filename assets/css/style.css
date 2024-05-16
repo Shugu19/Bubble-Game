@@ -12,7 +12,7 @@ body {
 main {
   width: 100%;
   min-height: 90vh;
-  padding: 0 9 vw;
+  padding: 0 9vw;
   justify-content: center;
   align-items: center;
   display: flex;
