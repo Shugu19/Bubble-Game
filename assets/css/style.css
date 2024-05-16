@@ -12,7 +12,7 @@ body {
 main {
   width: 100%;
   min-height: 90vh;
-  padding: 0 9em;
+  padding: 0 9 vw;
   justify-content: center;
   align-items: center;
   display: flex;
@@ -187,9 +187,12 @@ span {
     height: 8vw; */
     margin: 5px;
   }
-
+  #panel{
+    width: 80vw;
+  }
   li {
-    font-size: 20px;
+    font-size: 18px;
+    width: 70vw;
   }
 
   span {
@@ -200,15 +203,17 @@ span {
 
 @media screen and (max-width: 550px) {
   .bubble {
-    margin: 4px;
+    font-size: 25px;
+    margin: 8px;
+    padding: 18px;
   }
-
-  #infopanel {
-    font-size: 18px;
+  #panel{
+    width: 85vw;
   }
 
   li {
-    font-size: 14px;
+    font-size: 18px;
+    width: 70vw;
   }
 
   span {
@@ -225,6 +230,11 @@ span {
 }
 
 @media screen and (max-width: 450px) {
+  .bubble {
+    font-size: 25px;
+    margin: 8px;
+    padding: 16px;
+  }
   #infopanel {
     font-size: 18px;
   }
@@ -236,9 +246,15 @@ span {
   span {
     font-size: 25px;
   }
+  
 }
 
 @media screen and (max-width: 375px) {
+  .bubble {
+    font-size: 22px;
+    margin: 8px;
+    padding: 12px;
+  }
   li {
     font-size: 14px;
   }
