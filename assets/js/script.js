@@ -1,11 +1,10 @@
-var timer = 5;
+var timer = 60;
 var score = 0;
 var hitrn = 0;
 var timerInterval;
 
 function makeNewBubble() {
     var newbubble = "";
-
     for (var i = 0; i < 78; i++) {
         newbubble += `<div class="bubble">${Math.floor(Math.random() * 20)}</div>`;
     }
@@ -37,16 +36,13 @@ function increaseScore() {
 function endGame() {
     document.querySelector("#bottompanel").innerHTML = `<h1 id="endGame">Game Over</h1>`;
     document.querySelector("#bottompanel").innerHTML += `<h2 id="finalScore">Your Score: ${score}</h2>`;
-    if (!document.querySelector("#start")) { // Check if the button already exists
+    if (!document.querySelector("#startAgain")) { // Check if the button already exists
         document.querySelector("#bottompanel").innerHTML += `<button id="startAgain">Start Again</button>`;
         document.querySelector("#startAgain").addEventListener("click", function () {
             resetGame();
         });
     }
 }
-
-
-
 
 function resetGame() {
     clearInterval(timerInterval);
@@ -74,4 +70,6 @@ document.querySelector("#start").addEventListener("click", function () {
     startTimer();
 });
 
-
+document.querySelector("#restartButton").addEventListener("click", function () {
+    resetGame();
+});
