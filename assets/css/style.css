@@ -1,0 +1,235 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: gilroy;
+}
+
+body {
+  background-color: rgb(37, 94, 126);
+}
+
+main {
+  width: 100%;
+  min-height: 90vh;
+  padding: 0 1em;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+header {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: white;
+  font-size: 20px;
+  font-weight: 800;
+  background-color: rgb(37, 94, 126);
+}
+
+#panel {
+  width: 100%;
+  height: 90vh;
+  border-radius: 10px;
+  background-color: white;
+  
+}
+
+#toppanel {
+  justify-content: space-between;
+  padding: 1em 15vw;
+  align-items: center;
+  display: flex;
+  color: white;
+  background-color: rgb(15, 40, 69);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.element {
+  align-items: center;
+  display: flex;
+}
+
+.box {
+  margin-left: 5px;
+  color: rgb(18, 66, 137);
+  font-weight: 700;
+  font-size: 20px;
+  padding: 12px 15px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+#bottompanel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: 80vh;
+}
+
+#infopanel {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin: 6em;
+  color: white;
+  font-size: 20px;
+  font-weight: 800;
+  color: rgb(15, 40, 69);
+}
+
+span {
+  font-size: 27px;
+  font-weight: 800;
+  color: rgb(5, 26, 52);
+}
+
+#start {
+  color: white;
+  font-size: 20px;
+  font-weight: 800;
+  background-color: rgb(37, 94, 126);
+  border-radius: 20px;
+  padding: 1em;
+  margin: 60px auto;
+}
+
+#start:hover {
+  cursor: pointer;
+  background-color: rgb(15, 40, 69);
+}
+
+#endGame {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: white;
+  font-size: 30px;
+  font-weight: 800;
+  background-color: rgb(37, 94, 126);
+  border-radius: 20px;
+  padding: 0.5em 1em;
+  min-width: 300px;
+  margin: 1em auto;
+}
+
+.bubble {
+  background-color: rgb(15, 40, 69);
+  border-radius: 50%;
+  margin: 8px;
+  width: 6vw;
+  height: 6vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+}
+
+.bubble:hover {
+  background-color: rgb(37, 94, 126);
+  cursor: pointer;
+}
+
+#finalScore {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: white;
+  font-size: 30px;
+  font-weight: 800;
+  background-color: rgb(37, 94, 126);
+  border-radius: 20px;
+  padding: 0.5em 1em;
+  min-width: 300px;
+  margin: 1em auto;
+}
+
+#startAgain {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: white;
+  font-size: 30px;
+  font-weight: 800;
+  background-color: rgb(15, 40, 69);
+  border-radius: 20px;
+  padding: 0.5em 1em;
+  min-width: 300px;
+  margin: 10em auto;
+}
+
+#startAgain:hover {
+  cursor: pointer;
+  background-color: rgb(37, 94, 126);
+}
+
+/* Media Quaries */
+
+@media only screen and (max-width: 992px) {
+  .bubble {
+    width: 8vw;
+    height: 8vw;
+    margin: 5px;
+  }
+
+  li {
+    font-size: 20px;
+  }
+
+  span {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .bubble {
+    width: 10vw;
+    height: 10vw;
+    margin: 4px;
+  }
+
+  #infopanel {
+    font-size: 18px;
+  }
+
+  li {
+    font-size: 14px;
+  }
+
+  span {
+    font-size: 25px;
+  }
+
+  #toppanel {
+    padding: 1em;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  #infopanel {
+    font-size: 18px;
+  }
+
+  li {
+    font-size: 14px;
+  }
+
+  span {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  li {
+    font-size: 14px;
+  }
+
+  span {
+    font-size: 25px;
+  }
+}

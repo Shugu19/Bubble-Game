@@ -1,4 +1,4 @@
-var timer = 600;
+var timer = 5;
 var score = 0;
 var hitrn = 0;
 var timerInterval;
