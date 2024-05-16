@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bubble Game</title>
-    <link rel="stylesheet" href="assests/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
@@ -27,27 +27,26 @@
                     <h2>Score</h2>
                     <div id="NewScore" class="box">0</div>
                 </div>
+                <div class="element">
+                    <button id="restartButton" title="Restart">&#x21BB;</button>
+                </div>
             </div>
             <div id="bottompanel">
                 <div id="infopanel">
                     <ul>
                         <li><span>Hit:</span> Aim at bubbles of the same number and click to pop them. Each bubble
-                            popped
-                            earns 10 points.</li>
+                            popped earns 10 points.</li>
                         <li><span>Score:</span> Your score increases with each bubble you pop.</li>
-                        <li><span>Timer:</span> The game has a time limit try to pop as many bubbles as you can before
+                        <li><span>Timer:</span> The game has a time limit, try to pop as many bubbles as you can before
                             time runs out.</li>
                     </ul>
+                    <button id="start">
+                        <h1>Start Game</h1>
+                    </button>
                 </div>
-                <button id="start">
-                    <h1>Start Game</h1>
-                </button>
-
             </div>
-
         </section>
     </main>
-    <script src="assests/script.js"></script>
+    <script src="assets/js/script.js"></script>
 </body>
-
 </html>
