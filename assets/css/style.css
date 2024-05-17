@@ -1,12 +1,17 @@
+:root {
+  --text-color: #ffffff;
+  --highlight-color: #085784;
+  --secondary-highlight-color: #063251f0;
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: gilroy;
+  font-family: Montserrat;
 }
 
 body {
-  background-color: rgb(37, 94, 126);
+  background-color: var(--highlight-color);
 }
 
 main {
@@ -22,17 +27,17 @@ header {
   justify-content: center;
   align-items: center;
   display: flex;
-  color: white;
+  color: var(--text-color);
   font-size: 20px;
   font-weight: 800;
-  background-color: rgb(37, 94, 126);
+  background-color: var(--highlight-color);
 }
 
 #panel {
   width: 100%;
   height: 90vh;
   border-radius: 10px;
-  background-color: white;
+  background-color: var(--text-color);
   
 }
 
@@ -41,8 +46,8 @@ header {
   padding: 1em 12vw;
   align-items: center;
   display: flex;
-  color: white;
-  background-color: rgb(15, 40, 69);
+  color: var(--text-color);
+  background-color: var(--secondary-highlight-color);
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
@@ -54,12 +59,12 @@ header {
 
 .box {
   margin-left: 5px;
-  color: rgb(18, 66, 137);
+  color: var(--highlight-color);
   font-weight: 700;
   font-size: 20px;
   padding: 12px 15px;
   border-radius: 5px;
-  background-color: white;
+  background-color: var(--text-color);
 }
 
 #bottompanel {
@@ -75,23 +80,23 @@ header {
   display: flex;
   flex-direction: column;
   margin: 6em;
-  color: white;
+  color: var(--text-color);
   font-size: 20px;
   font-weight: 800;
-  color: rgb(15, 40, 69);
+  color: var(--secondary-highlight-color);
 }
 
 span {
   font-size: 27px;
   font-weight: 800;
-  color: rgb(5, 26, 52);
+  color: var(--secondary-highlight-color);
 }
 
 #start {
-  color: white;
+  color: var(--text-color);
   font-size: 20px;
   font-weight: 800;
-  background-color: rgb(37, 94, 126);
+  background-color: var(--highlight-color);
   border-radius: 20px;
   padding: 1em;
   margin: 60px auto;
@@ -99,17 +104,17 @@ span {
 
 #start:hover {
   cursor: pointer;
-  background-color: rgb(15, 40, 69);
+  background-color: var(--secondary-highlight-color);
 }
 
 #endGame {
   justify-content: center;
   align-items: center;
   display: flex;
-  color: white;
+  color: var(--text-color);
   font-size: 30px;
   font-weight: 800;
-  background-color: rgb(37, 94, 126);
+  background-color: var(--highlight-color);
   border-radius: 20px;
   padding: 0.5em 1em;
   min-width: 300px;
@@ -117,7 +122,7 @@ span {
 }
 
 .bubble {
-  background-color: rgb(15, 40, 69);
+  background-color: var(--secondary-highlight-color);
   border-radius: 50%;
   margin: 8px;
   width: 5vw;
@@ -127,11 +132,11 @@ span {
   align-items: center;
   font-size: 30px;
   font-weight: 700;
-  color: white;
+  color: var(--text-color);
 }
 
 .bubble:hover {
-  background-color: rgb(37, 94, 126);
+  background-color: var(--highlight-color);
   cursor: pointer;
 }
 
@@ -139,10 +144,10 @@ span {
   justify-content: center;
   align-items: center;
   display: flex;
-  color: white;
+  color: var(--text-color);
   font-size: 30px;
   font-weight: 800;
-  background-color: rgb(37, 94, 126);
+  background-color: var(--highlight-color);
   border-radius: 20px;
   padding: 0.5em 1em;
   min-width: 300px;
@@ -153,10 +158,10 @@ span {
   justify-content: center;
   align-items: center;
   display: flex;
-  color: white;
+  color: var(--text-color);
   font-size: 30px;
   font-weight: 800;
-  background-color: rgb(15, 40, 69);
+  background-color: var(--secondary-highlight-color);
   border-radius: 20px;
   padding: 0.5em 1em;
   min-width: 300px;
@@ -165,17 +170,17 @@ span {
 
 #startAgain:hover {
   cursor: pointer;
-  background-color: rgb(37, 94, 126);
+  background-color: var(--highlight-color);
 }
 #restartButton {
-  color: white;
+  color: var(--text-color);
   background: none;
   border: none;
   font-size: 40px;
   cursor: pointer;
 }
 #restartButton:hover {
-  color: rgb(37, 94, 126);
+  color: var(--highlight-color);
 }
 
 

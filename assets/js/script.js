@@ -5,11 +5,22 @@ var timerInterval;
 
 function makeNewBubble() {
     var newbubble = "";
+    var hasCorrectBubble = false; 
     for (var i = 0; i < 78; i++) {
-        newbubble += `<div class="bubble">${Math.floor(Math.random() * 20)}</div>`;
+        var bubbleNumber = Math.floor(Math.random() * 20);
+        if (bubbleNumber === hitrn) {
+            hasCorrectBubble = true; 
+        }
+        newbubble += `<div class="bubble">${bubbleNumber}</div>`;
+    }
+    
+    if (!hasCorrectBubble) {
+        var randomIndex = Math.floor(Math.random() * 78); 
+        newbubble = newbubble.slice(0, randomIndex * 21) + `<div class="bubble">${hitrn}</div>` + newbubble.slice(randomIndex * 21);
     }
     document.querySelector("#bottompanel").innerHTML = newbubble;
 }
+
 
 function startTimer() {
     timerInterval = setInterval(function () {
