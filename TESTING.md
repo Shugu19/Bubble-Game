@@ -39,30 +39,31 @@ Recommended browsers to consider:
 
 I've tested my deployed project on multiple browsers to check for compatibility issues.
 
-| Browser | Home                                                           | About             | Contact | etc | Notes |
-| ------- | -------------------------------------------------------------- | ----------------- | ------- | --- | ----- |
-| Chrome  | ![screenshot](documentation/browsers/browser-chrome-home.png)  | Works as expected |
-| Firefox | ![screenshot](documentation/browsers/browser-firefox-home.png) | Works as expected |
-| Opera   | ![screenshot](documentation/browsers/browser-opera-home.png)   | Works as expected |
+| Browser | Home  | Gaming Area | Notes |
+| ------- | ------| ------------| ----- | 
+| Chrome  | ![screenshot](documentation/browsers/browser-chrome-home.png)  | ![screenshot](documentation/browsers/browser-chrome-GamingArea.png)  | Works as expected |
+| Firefox | ![screenshot](documentation/browsers/browser-firefox-home.png) | ![screenshot](documentation/browsers/browser-firefox-GamingArea.png) |Works as expected |
+| Opera   | ![screenshot](documentation/browsers/browser-opera-home.png) |![screenshot](documentation/browsers/browser-opera-GamingArea.png)   | Works as expected |
 
 ## Responsiveness
 
 I've tested my deployed project on multiple devices to check for responsiveness issues.
 
-| Device            | Home                                                    |
-| ----------------- | ------------------------------------------------------- | ----------------- |
-| Mobile (DevTools) | ![screenshot](documentation/responsiveness/mobile.png)  | Works as expected |
-| Tablet (DevTools) | ![screenshot](documentation/responsiveness/tablet.png)  | Works as expected |
-| Desktop           | ![screenshot](documentation/responsiveness/desktop.png) | Works as expected |
-| iPhone 14 pro max | ![screenshot](documentation/responsiveness/mobile.png)  | Works as expected |
+| Device |Home      |GamingArea      | Notes |
+| -------| -------- | ----------------- |-------|
+| Mobile (DevTools) | ![screenshot](documentation/responsiveness/mobile-home.png)  |![screenshot](documentation/responsiveness/mobile-gamingArea.png) | Works as expected |
+| Tablet (DevTools) | ![screenshot](documentation/responsiveness/tablet-home.png) | ![screenshot](documentation/responsiveness/tablet-gamingArea.png) | Works as expected |
+| Desktop           | ![screenshot](documentation/responsiveness/desktop-home.png) | ![screenshot](documentation/responsiveness/desktop-gamingArea.png) | Works as expected |
+| iPhone 14 pro max | ![screenshot](documentation/responsiveness/mobile-home.png) | ![screenshot](documentation/responsiveness/mobile-gamingArea.png) | Works as expected |
 
 ## Lighthouse Audit
 
 I've tested my deployed project using the Lighthouse Audit tool to check for any major issues.
 
-| Page | Mobile                                                        |
-| ---- | ------------------------------------------------------------- | -------------------------------------------------------------- | ------------------- |
-| Home | ![screenshot](documentation/lighthouse/lighthouse-mobile.png) | ![screenshot](documentation/lighthouse/lighthouse-desktop.png) | Some minor warnings |
+| Page | Home | Notes |
+| -----| -----| ----  |
+| Mobile| ![screenshot](documentation/lighthouse/lighthouse-mobile.png) |  Some minor warnings |
+| Desktop |![screenshot](documentation/lighthouse/lighthouse-desktop.png) | Some minor warnings |
 
 ## Bugs
 
