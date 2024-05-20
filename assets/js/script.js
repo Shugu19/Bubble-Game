@@ -7,22 +7,25 @@ var timerInterval;
 
 function makeNewBubble() {
     var newbubble = "";
-    var hasCorrectBubble = false; 
+    var bubbleNumbers = [];
     for (var i = 0; i < 78; i++) {
         var bubbleNumber = Math.floor(Math.random() * 20);
-        if (bubbleNumber === hitrn) {
-            hasCorrectBubble = true; 
-        }
-        newbubble += `<div class="bubble">${bubbleNumber}</div>`;
+        bubbleNumbers.push(bubbleNumber);
     }
-    
-    if (!hasCorrectBubble) {
-        var randomIndex = Math.floor(Math.random() * 78); 
-        newbubble = newbubble.slice(0, randomIndex * 21) + `<div class="bubble">${hitrn}</div>` + newbubble.slice(randomIndex * 21);
+
+    // Ensure at least one bubble matches the hit number
+    if (!bubbleNumbers.includes(hitrn)) {
+        var randomIndex = Math.floor(Math.random() * 78);
+        bubbleNumbers[randomIndex] = hitrn;
     }
+
+    // Create bubble elements from the array
+    for (var i = 0; i < bubbleNumbers.length; i++) {
+        newbubble += `<div class="bubble">${bubbleNumbers[i]}</div>`;
+    }
+
     document.querySelector("#bottompanel").innerHTML = newbubble;
 }
-
 
 function startTimer() {
     timerInterval = setInterval(function () {
