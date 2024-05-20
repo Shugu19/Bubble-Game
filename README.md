@@ -7,9 +7,11 @@
 # Bubble Game
 
 ## Overview
+
 Bubble Game is an engaging and fun web-based game where players pop bubbles with matching numbers to earn points. The game is designed to be challenging yet entertaining, providing users with a countdown timer to add an element of urgency. This game aims to offer a simple yet addictive experience suitable for all ages.
 
 ## Features
+
 - **Hit Target**: Displays the number you need to match by clicking on the bubbles.
 - **Timer**: A countdown timer that gives you a limited amount of time to score as many points as possible.
 - **Score**: Keeps track of your current score.
@@ -17,6 +19,7 @@ Bubble Game is an engaging and fun web-based game where players pop bubbles with
 - **Restart Button**: Allows players to restart the game at any time.
 
 ## How to Play
+
 1. Click the "Start Game" button to begin.
 2. A random number will appear in the "Hit" box.
 3. Click on bubbles that match the number in the "Hit" box to earn points.
@@ -25,9 +28,11 @@ Bubble Game is an engaging and fun web-based game where players pop bubbles with
 6. You can restart the game at any time by clicking the restart button.
 
 ## Development
+
 This game was built using HTML, CSS, and JavaScript. It uses responsive design principles to ensure a great user experience on all devices. The game dynamically generates bubbles and updates the score, timer, and hit number in real-time.
 
 ## Screenshots
+
 Here is a mockup of how the game looks on different devices:
 
 ![screenshot](documentation/mockup.png)
@@ -35,23 +40,27 @@ Here is a mockup of how the game looks on different devices:
 source: [amiresponsive](https://ui.dev/amiresponsive?url=https://shugu19.github.io/Bubble-Game)
 
 ## Installation
+
 1. Clone the repository:
-    ```sh
-    git clone (https://shugu19.github.io/Bubble-Game)
-    ```
+   ```sh
+   git clone (https://shugu19.github.io/Bubble-Game)
+   ```
 2. Navigate to the project directory:
-    ```sh
-    cd bubble-game
-    ```
+   ```sh
+   cd bubble-game
+   ```
 3. Open `index.html` in your preferred web browser.
 
 ## Usage
+
 Click the "Start Game" button to begin playing. Match the numbers and keep an eye on the timer. Click the restart button to play again.
 
 ## Credits
+
 - **Developer**: Shubham Badhan
 
 ## UX
+
 The design process focused on creating an intuitive and visually engaging interface. The colors were chosen to ensure readability and to create a sense of excitement and urgency. The layout is responsive, ensuring a seamless experience across different devices.
 
 ### Colour Scheme
@@ -59,7 +68,6 @@ The design process focused on creating an intuitive and visually engaging interf
 - `#ffffff` used for primary text.
 - `#085784` used for primary highlights.
 - `#063251f0` used for secondary highlights.
-
 
 I've used CSS `:root` variables to easily update the global colour scheme by changing only one value, instead of everywhere in the CSS file.
 
@@ -81,41 +89,48 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
 
 ### Mobile Wireframes
 
-< details >
-< summary > Click here to see the Mobile Wireframes < / summary >
+<details>
+<summary> Click here to see the Mobile Wireframes </summary>
 
 Home
-  - ![screenshot](documentation/wireframes/mobile-home.png)
+
+- ![screenshot](documentation/wireframes/mobile-home.png)
 
 GamingArea
-  - ![screenshot](documentation/wireframes/Mobile-GamingArea.png)
 
-< / details >
+- ![screenshot](documentation/wireframes/Mobile-GamingArea.png)
+
+</details>
 
 ### Tablet Wireframes
 
-< details >
-< summary > Click here to see the Tablet Wireframes < / summary >
+<details>
+<summary> Click here to see the Tablet Wireframes </summary>
 
 Home
-  - ![screenshot](documentation/wireframes/Tablet-home.png)
+
+- ![screenshot](documentation/wireframes/Tablet-home.png)
 
 GamingArea
-  - ![screenshot](documentation/wireframes/Tablet-GamingArea.png)
-< / details >
+
+- ![screenshot](documentation/wireframes/Tablet-GamingArea.png)
+  
+  </details>
 
 ### Desktop Wireframes
 
-< details >
-< summary > Click here to see the Desktop Wireframes < / summary >
+<details>
+<summary> Click here to see the Desktop Wireframes </summary>
 
 Home
-  - ![screenshot](documentation/wireframes/Laptop-home.png)
+
+- ![screenshot](documentation/wireframes/Laptop-home.png)
 
 GamingArea
-  - ![screenshot](documentation/wireframes/Laptop-GamingArea.png)
 
-< / details >
+- ![screenshot](documentation/wireframes/Laptop-GamingArea.png)
+
+</details>
 
 ## Tools & Technologies Used
 
@@ -138,7 +153,7 @@ GamingArea
 
 The site was deployed to GitHub Pages. The steps to deploy are as follows:
 
-- In the [GitHub repository](https://github.com/Shugu19/Bubble-Game), navigate to the Settings tab 
+- In the [GitHub repository](https://github.com/Shugu19/Bubble-Game), navigate to the Settings tab
 - From the source section drop-down menu, select the **Main** Branch, then click "Save".
 - The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
@@ -152,13 +167,13 @@ This project can be cloned or forked in order to make a local copy on your own s
 
 You can clone the repository by following these steps:
 
-1. Go to the [GitHub repository](https://github.com/Shugu19/Bubble-Game) 
-2. Locate the Code button above the list of files and click it 
+1. Go to the [GitHub repository](https://github.com/Shugu19/Bubble-Game)
+2. Locate the Code button above the list of files and click it
 3. Select if you prefer to clone using HTTPS, SSH, or GitHub CLI and click the copy button to copy the URL to your clipboard
 4. Open Git Bash or Terminal
 5. Change the current working directory to the one where you want the cloned directory
 6. In your IDE Terminal, type the following command to clone my repository:
-	- `git clone https://github.com/Shugu19/Bubble-Game.git`
+   - `git clone https://github.com/Shugu19/Bubble-Game.git`
 7. Press Enter to create your local clone.
 
 Alternatively, if using Gitpod, you can click below to create your own workspace using this repository.
@@ -177,14 +192,11 @@ You can fork this repository by using the following steps:
 2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
 3. Once clicked, you should now have a copy of the original repository in your own GitHub account!
 
-
 ## Credits
 
-| Source | Location | Notes |
-| --- | --- | --- |
+| Source                                                   | Location           |     Notes  |
+| -------------------------------------------------------- | -------------------| ---------- |
 | [Markdown Builder](https://tim.2bn.dev/markdown-builder) | README and TESTING | tool to help generate the Markdown files |
-
-
 
 ### Acknowledgements
 
